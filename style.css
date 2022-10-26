@@ -1,0 +1,63 @@
+body{
+    color: black;
+    font-family: 'Times', sans-serif;
+    font-size: 20px;
+    background-color:rgb(200, 141, 141);
+    background-image: url("background.jpg");
+    line-height: 1cm;
+    text-align: center;
+}
+
+h1{
+    color: rgb(163, 36, 117);
+    font-family: 'Times', sans-serif;
+    font-size: 25px;
+    line-height: 1cm;
+}
+
+h2{
+    color: black;
+    font-family: 'Times', sans-serif;
+    font-size: 20px;
+    line-height: 1cm;
+}
+
+h3{
+    color: black;
+    font-family: 'Times', sans-serif;
+    font-size: 24px;
+    line-height: 1cm;
+}
+
+a:hover{
+    color: rgb(205, 191, 194);
+  
+}
+
+a{
+    text-decoration: none;
+    color:rgb(128, 61, 83)
+  }
+  
+img{
+    width: 150px;
+    height: 150px;
+}
+
+ 
+li{
+    font-size: 24px;
+}
+.container{
+    width: 70vw;
+    margin: 0 auto;
+}
+   
+.card{
+    margin: 10px 0;
+   background-color: rgb(237, 220, 232);
+   padding: 1em 2em;
+   border-radius: 8px;
+}
+
+   
