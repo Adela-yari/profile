@@ -74,7 +74,7 @@ a{
  }
  .navbar ul li a{
    text-decoration:#a47e9d;
-   color: white;
+   color: #a47e9d;
    text-transform: uppercase;
  }
  .navbar ul li a::after{
