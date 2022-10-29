@@ -38,7 +38,7 @@ a:hover{
 }
 
 a{
-    size: 10px;
+    size:20px;
     margin: 0 20px;
     text-decoration: none;
     color:rgb(202 144 179)
@@ -73,7 +73,7 @@ a{
    position: relative;
  }
  .navbar ul li a{
-   text-decoration: none;
+   text-decoration:line-through;
    color: white;
    text-transform: uppercase;
  }
