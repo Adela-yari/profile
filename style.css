@@ -4,7 +4,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/background.jpg.jpg);
     background-size: cover;
     background-position: center;
-    color: black;
+    color: rgb(215, 198, 213);
     font-family: 'Times', sans-serif;
     font-size: 20px;
     line-height: 1cm;
