@@ -8,11 +8,11 @@
     font-family: 'Times', sans-serif;
     font-size: 20px;
     line-height: 1cm;
-    text-align:right;
+    text-align: end;
 }
 
 h1{
-    color: rgb(38, 5, 25);
+    color: rgb(202 144 179);
     font-family: 'Times', sans-serif;
     font-size: 25px;
     line-height: 1cm;
@@ -39,7 +39,7 @@ a:hover{
 
 a{
     text-decoration: none;
-    color:rgb(38, 5, 25)
+    color:rgb(202 144 179)
   }
   
 
@@ -77,7 +77,7 @@ a{
  .navbar ul li a::after{
     content: '';
     height: 3px;
-    background: #2c867d;
+    background: #a47e9d;
     left: 0;
     bottom: -10px;
     transition: 0.5s;
