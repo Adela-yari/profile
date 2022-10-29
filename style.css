@@ -38,6 +38,7 @@ a:hover{
 }
 
 a{
+    size: 1cm;
     margin: 0 20px;
     text-decoration: none;
     color:rgb(202 144 179)
