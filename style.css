@@ -1,10 +1,12 @@
-body{
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/background.jpg.jpg);
+    background-size: cover;
+    background-position: center;
     color: black;
     font-family: 'Times', sans-serif;
     font-size: 20px;
-    background-image: url(images/background.jpg.jpg);
-    background-size: cover;
-    background-blend-mode: color;
     line-height: 1cm;
     text-align: center;
 }
@@ -38,12 +40,11 @@ a:hover{
 a{
     text-decoration: none;
     color:rgb(128, 61, 83)
-
   }
   
 img{
     width: 150px;
-    height: 200px;
+    height: 250px;
 }
 
 .container{
@@ -51,11 +52,43 @@ img{
     margin: 0 auto;
 }
    
-.card{
-    margin: 10px 0;
-   background-color: rgb(237, 220, 232);
-   padding: 1em 2em;
-   border-radius: 8px;
+.navbar{
+   width: 85%;
+   margin: auto;
+   padding: 35px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
 
+.logo{
+    width: 120px;
+    cursor: pointer;
+    
+ }
+ .navbar ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 0 20px;
+   position: relative;
+ }
+ .navbar ul li a{
+   text-decoration: none;
+   color: white;
+   text-transform: uppercase;
+ }
+ .navbar ul li a::after{
+    content: '';
+    height: 3px;
+    background: #009688;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  .navbar ul li :hover::after{
+    width: 100%;
+  }
+    
+
+    
    
