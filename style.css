@@ -73,7 +73,7 @@ a{
    position: relative;
  }
  .navbar ul li a{
-   text-decoration:line-through;
+   text-decoration:#a47e9d;
    color: white;
    text-transform: uppercase;
  }
