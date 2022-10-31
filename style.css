@@ -1,14 +1,14 @@
 .banner{
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/background.jpg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background.jpg.jpg);
     background-size: cover;
     background-position: center;
     color: rgb(215, 198, 213);
-    font-family: 'Times', sans-serif;
     font-size: 20px;
     line-height: 1cm;
+    font-family: 'Times', sans-serif;
     text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 h1{
@@ -52,39 +52,31 @@ a{
 }
    
 .navbar{
-   width: 85%;
+   width: 94%;
    margin: auto;
-   padding: 35px 0;
    display: flex;
    align-items: center;
+   padding: 40px 0;
    justify-content: space-between;
 }
 
 .logo{
     height: auto;
-    width: 120px;
+    width: 110px;
     cursor: pointer;
     
  }
  .navbar ul li{
-   list-style: none;
-   display: inline-block;
-   margin: 0 20px;
+   list-style: circle;
+   display: inline-table;
+   margin: 0 15px;
    position: relative;
  }
  .navbar ul li a{
-   text-decoration:#a47e9d;
+   text-decoration: none;
    color: #a47e9d;
    text-transform: uppercase;
  }
- .navbar ul li a::after{
-    content: '';
-    height: 3px;
-    background: #a47e9d;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-  }
   .navbar ul li :hover::after{
     width: 100%;
   }
