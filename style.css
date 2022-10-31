@@ -77,8 +77,14 @@ a{
    color: #a47e9d;
    text-transform: uppercase;
  }
-  .navbar ul li :hover::after{
-    width: 100%;
+  .navbar ul li :hover{
+    width: 0;
+    height: 3px;
+    background: rgb(215, 198, 213);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
   }
     
 
